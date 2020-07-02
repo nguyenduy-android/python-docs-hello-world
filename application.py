@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import request
-import joblib
 import json
 from couchbase.cluster import Cluster, PasswordAuthenticator, ClusterOptions
 from couchbase.auth import PasswordAuthenticator
